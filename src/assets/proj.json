@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Personas & Storyboarding",
+    "description": "Created personas and storyborading based on interviews of users using gas station machine",
+    "image": "images/gas.png",
+    "web": "https://sleepypenguin367.github.io/personas-storyboard/"
+  },
+
+  {
+    "title": "Development",
+    "description": "Created an application interface for a milk tea shop",
+    "image": "images/milk.png",
+    "web": "https://sleepypenguin367.github.io/development1300/"
+  },
+
+  {
+    "title": "Responsive Redesign",
+    "description": "Redesigned a website to let have better useability and responsiveness to different devices",
+    "image": "images/redesign.png",
+    "web": "https://sleepypenguin367.github.io/responsive-redesign/"
+  },
+
+  {
+    "title": "Iterative Design",
+    "description": "Follow the full process of designing and examing an interface",
+    "image": "images/iterative.png",
+    "web": "https://indra9527.github.io/Iterative-Design/"
+  }
+
+]

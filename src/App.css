@@ -2,37 +2,107 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face { font-family: roboto-regular; 
+  src: url('./assets/Roboto/Roboto-Regular.ttf'); } 
+@font-face { font-family: roboto-bold; 
+  src: url('./assets/Roboto/Roboto-Bold.ttf'); } 
+@font-face { font-family: roboto-meidum; 
+  src: url('./assets/Roboto/Roboto-Medium.ttf'); } 
+@font-face { font-family: roboto-black; 
+  src: url('./assets/Roboto/Roboto-Black.ttf'); } 
+
+.works {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: auto auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+}
+.itemWork {
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  display: grid;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container_left {
+  text-align: center;
+  display: inline;
+  background-color: #60BFC1;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+h2 {
+  color:#b98f66;
+  font-size:70px;
+}
+h1 {
+  color:#7ea2ad;
+  font-size:larger;
+  font-family: roboto-regular;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  color:#035a18;
+  font-family: roboto-regular;
+  font-size: 25px;
+}
+h4 {
+  color:#035a18;
+  font-family: roboto-regular;
+  font-size: 40px;
+}
+h5 {
+  color:#1166a8;
+  font-family: roboto-regular;
+  font-size: 35px;
+}
+h1 {
+  color:#6966b1;
+  font-size:larger;
+  font-family: roboto-regular;
+}
+h6 {
+  color:#824e1a;
+  font-size:large;
+  font-family: roboto-regular;
+}
+
+
+.title {
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.hori {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: 50% 50%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.left {
+  display: inline;
+}
+.right {
+  display: inline;
+}
+.container_left1 {
+  display: inline;
+  background-color: #60BFC1;
+}
+.container_left2 {
+  display: inline;
 }
