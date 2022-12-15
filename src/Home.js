@@ -7,6 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -78,51 +79,51 @@ function Works() {
 <div className="works">
   
 <div className="pro2">
-<a href="/redesign" >
+<Link to={'redesign'}>
 
-  <div className="pro222">
+  <div className="pro222" onClick={() => {document.getElementById('me').scrollIntoView();}}>
 {/* device mock: https://www.freepik.com/free-psd/digital-devices-screen-editable_16303836.htm#query=laptop%20tablet%20phone%20mockup&position=0&from_view=keyword */}
 <img src={process.env.PUBLIC_URL + "/" + "images/redesign.png"} className="pro21"></img>
 
 <div className="pro23"><h1 className="h1_p2">Redesigned a website to let have better useability and responsiveness to different devices</h1></div>
 </div>
-</a>
+</Link>
 <div className="pro22"><h2 className="h2_p2">Responsive Redesign</h2></div>
 
 
 </div>
 <div className="pro1">
-<a href="/iterative" >
 
-<div className="pro111">
+<Link to={'iterative'}>
+<div className="pro111" onClick={() => {document.getElementById('me').scrollIntoView();}}>
 {/* device mock: https://www.freepik.com/free-psd/smartphone-screen-mockup-psd_32084765.htm#page=3&query=ipad%20mockup&position=49&from_view=search&track=sph */}
 <img src={process.env.PUBLIC_URL + "/" + "images/devices7.png"} className="pro11"></img>
 <div className="pro13"><h1 className="h1_p2">Follow the full process of designing and examining an interface</h1></div>
 </div>
-</a>
+</Link>
 <div className="pro12"><h2 className="h2_p1">Iterative Design</h2></div>
 
 </div>
 <div className="pro3">
-<a href="/milkteashop" >
-  <div className="pro333">
+<Link to={'milkteashop'}>
+  <div className="pro333" onClick={() => {document.getElementById('me').scrollIntoView();}}>
 {/* device mock: https://www.freepik.com/premium-psd/diagonal-composition-tablets-mockup_28451835.htm#query=ipad%20mockup&position=11&from_view=search&track=sph */}
 <img src={process.env.PUBLIC_URL + "/" + "images/milkteamock.png"} className="pro31"></img>
 
 <div className="pro33"><h1 className="h1_p2">Created a react application interface for a milk tea shop to apply sorting and filtering</h1></div>
 </div>
-</a>
+</Link>
 <div className="pro32"><h2 className="h2_p3">React Development</h2></div>
 
 
 </div>
 <div className="pro4">
-<a href="/persona" >
-<div className="pro444">
+<Link to={'persona'}>
+<div className="pro444" onClick={() => {document.getElementById('me').scrollIntoView();}}>
 <img src={process.env.PUBLIC_URL + "/" + "images/cover.png"} className="pro41"></img>
 <div className="pro43"><h1 className="h1_p2">Created personas and storyborad based on interviews of users using gas station machine</h1></div>
 </div>
-</a>
+</Link>
 <div className="pro42"><h2 className="h2_p4">Persona & Storyboarding</h2></div>
 
 </div>

@@ -187,7 +187,6 @@ window.onload = function() {
   let bigB = document.querySelector("#bigb");
   const l = (rect.left+rect.right)/2 - 150;
   bigB.style.left = l+'px';
-
 }
 
  export default Redesign;
