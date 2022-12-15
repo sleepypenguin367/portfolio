@@ -3,6 +3,7 @@ import * as React from 'react';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar1() {
@@ -33,7 +34,7 @@ export default function Navbar1() {
   {/* reference: https://mui.com/material-ui/react-app-bar/#ResponsiveAppBar.js */}
     <div className="navbar">
 
-    <h1 className="h1-back"><a href="..">Back to Home</a></h1>
+    <h1 className="h1-back"><Link to={'..'}>Back to Home</Link></h1>
     <span className="bigButton" id="bigb"></span>
       <Container maxWidth="xl" >
         <div className="innerbar">

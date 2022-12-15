@@ -3,7 +3,6 @@ import './App.css';
 import * as React from 'react';
 
 import Navbar2 from './components/Navbar2';
-import { Button } from '@mui/material';
 
 function Iterative() {
   return (
