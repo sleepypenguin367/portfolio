@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url(https://www.toptal.com/designers/subtlepatterns/uploads/sakura.png);
+}
+
+.text {
+    border: 5px solid navajowhite;
+    -webkit-box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77); 
+    box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77);
+    background-color: lightskyblue;
+    
+}
+
+.fonnt {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: large;
+}
+
+h1{
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 50pt;
+    color: lightseagreen;
+}
+
+p{
+    text-indent:30pt;
+    font: white;
+}
+

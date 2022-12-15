@@ -10,15 +10,58 @@
   src: url('./assets/Roboto/Roboto-Medium.ttf'); } 
 @font-face { font-family: roboto-black; 
   src: url('./assets/Roboto/Roboto-Black.ttf'); } 
+@font-face {
+  font-family: newyork;
+  src: url('./assets/NewYork\ PERSONAL\ USE.otf');
+}
+@font-face {
+  font-family: mon;
+  src: url(./assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.workCon {
+  margin: auto;
+  background-color: #7ae982;
+  z-index: 200;
+  text-align: center;
+  align-items: center;
+}
+.workCon3 {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 20px;
+  background-color: #7ae982;
+  z-index: 200;
+  text-align: center;
+}
+
+.workCon1 {
+  margin: auto;
+  background-color: #60BFC1;
+  z-index: 200;
+  text-align: center;
+}
+.workCon2 {
+  margin: auto;
+  width: 100%;
+  background-color: #60BFC1;
+  z-index: 200;
+  padding-bottom: 50px;
+
+  text-align: center;
+}
+
 
 .works {
+  background-color: #7ae982;
   display: grid;
   gap: 60px;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   margin-top: 10%;
   margin-bottom: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  z-index: 100;
   
 }
 .itemWork {
@@ -26,61 +69,64 @@
 }
 
 .container {
-  display: grid;
-
+display: grid;
 }
 
 .container_left {
   text-align: center;
   display: inline;
   background-color: #60BFC1;
+  overflow: hidden;
 }
 
 
 
 
 h2 {
-  color:#b98f66;
-  font-size:70px;
+  color:#055011;
+  font-size:65px;
+  font-family: newyork;
 }
 h1 {
-  color:#7ea2ad;
-  font-size:larger;
-  font-family: roboto-regular;
+  color:#19006d;
+  font-size:40px;
+  font-family: newyork;
+  text-align: left;
+  padding: 40px;
+  margin:auto;
 }
+
 
 h3 {
   color:#035a18;
-  font-family: roboto-regular;
+  font-family: mon;
   font-size: 25px;
 }
 h4 {
   color:#035a18;
-  font-family: roboto-regular;
+  font-family: mon;
   font-size: 40px;
 }
 h5 {
   color:#1166a8;
-  font-family: roboto-regular;
+  font-family: mon;
   font-size: 35px;
 }
-h1 {
-  color:#6966b1;
-  font-size:larger;
-  font-family: roboto-regular;
-}
+
 h6 {
   color:#824e1a;
   font-size:large;
-  font-family: roboto-regular;
+  font-family: mon;
 }
 
 
 .title {
   margin-top: 15%;
-  margin-bottom: 15%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-bottom: 20%;
+  margin-left: 60%;
+  margin-right: 10%;
+  z-index: 200;
+  position: relative;
 }
 
 .hori {
@@ -105,4 +151,558 @@ h6 {
 }
 .container_left2 {
   display: inline;
+}
+
+
+
+
+
+
+
+.navbar {
+  height: 70px;
+  vertical-align: top;
+  background-color:#824e1a;
+  filter: url('#goo');
+  
+}
+.navbar1 {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  vertical-align: top;
+  background-color:#824e1a;
+  z-index:400;
+}
+
+.navButton Button:hover {
+  color:#7f807f;
+  font-family: 'roboto-black';
+  font-size:'20px';
+}
+
+.navButton {
+  
+  width: 200px;
+  margin-left: 50px;
+
+}
+
+.navButton Button.active {
+  color:white;
+ 
+  font-size: 25px;
+  width: 200px;
+  height: 80px;
+
+}
+
+.navButton div:hover {
+  color:#035a18;
+
+}
+
+
+
+.innerbar {
+  vertical-align: top;
+  display: flex;
+  flex-direction: row;
+}
+
+.bigButton {
+  position: absolute;
+  left: 1009px;
+  background-color: #824e1a;
+  border-radius: 20px;
+  width: 300px;
+  height: 110px;
+  /* reference: https://www.youtube.com/watch?v=PvCeQU6QoGY */
+   /* Following piece of code is borrowed from https://codepen.io/lenymo/pen/pJzWVy with gooey effect" */
+  transition: left .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.barcontainer {
+  display: flex;
+}
+
+#filter-svg {
+  display: none;
+}
+
+
+
+
+
+.circle {
+  width: 1200px;
+  height: 1200px;
+  border-radius: 50%;
+  background-color: bisque;
+position: absolute;
+  left: -100px;
+  top: 300px;
+  z-index: 1;
+  overflow-y: scroll;
+}
+
+.memoji {
+  width: 1200px;
+  height: 1200px;
+position: absolute;
+  left: 100px;
+  top: -50px;
+  z-index: 2;
+  overflow-y: scroll;
+}
+
+.sec1 {
+  background-color: #60BFC1;
+  height: 55vw;
+}
+
+.sec1 {
+  background-color: #60BFC1;
+}
+
+.plane {
+  width: 120px;
+  height: 120px;
+position: absolute;
+left: 10vh;
+top: 10vh;
+background-color: aqua;
+  z-index: 5;
+  overflow-y: scroll;
+}
+
+
+
+.div1 {
+  height: 100px;
+  z-index: 50;
+  position: relative;
+
+  background-image: linear-gradient(#60BFC1, #7ae982);
+}
+.div2 {
+  height: 100px;
+  z-index: 50;
+  position: relative;
+
+  background-image: linear-gradient(#7ae982,#60BFC1);
+}
+
+.top_layer {
+  z-index: 1;
+}
+
+.works_header {
+  text-align: center;
+}
+
+
+
+.pro11 {
+  background-color: rgb(228, 157, 215);
+  width: 100%;
+  border-radius: 30px;
+  height: 100%;
+  /* reference: https://css-tricks.com/almanac/properties/t/transition/ */
+  transition: background-color 0.5s ease;
+}
+.pro21 {
+  background-color: rgb(160, 169, 127);
+  width: 100%;
+  border-radius: 30px;
+  height: 100%;
+  /* reference: https://css-tricks.com/almanac/properties/t/transition/ */
+  transition: background-color 0.5s ease;
+
+}
+
+.pro222:hover .pro21 {
+  background-color: SlateGray;
+  opacity: 0.50;
+  z-index: 2;
+}
+/* reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */
+/* reference: https://blog.hubspot.com/website/css-hover-animation */
+.pro222:active .pro21 {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* reference: https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
+.pro111:hover .pro13 {
+  visibility: visible;
+  transform: translateY(0);
+}
+.pro111:hover .pro11 {
+  background-color: SlateGray;
+  opacity: 0.50;
+  z-index: 2;
+}
+/* reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */
+/* reference: https://blog.hubspot.com/website/css-hover-animation */
+.pro111:active .pro11 {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* reference: https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
+.pro222:hover .pro23 {
+  visibility: visible;
+  transform: translateY(0);
+}
+/* reference: https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
+/* reference: https://blog.hubspot.com/website/css-hover-animation */
+.pro23 {
+  width: 80%;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  transition: .2s;
+  transform: translateY(10em);
+}
+/* reference: https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
+/* reference: https://blog.hubspot.com/website/css-hover-animation */
+.pro13 {
+  width: 80%;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  visibility: hidden;
+  position: absolute;
+  top: 10%;
+  transition: .2s;
+  transform: translateY(-10em);
+}
+.pro22 {
+  width: 80%;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  top: -62.75%;
+  position: relative;
+  
+}
+.pro12 {
+
+
+  width: 80%;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  top: -9.75%;
+  position: relative;
+  
+}
+
+.pro2 {
+  position: relative;
+  text-align: center;
+}
+.pro1 {
+  position: relative;
+  text-align: center;
+}
+
+/* reference: https://stackoverflow.com/questions/53223031/splitting-text-color-with-css-when-compared-to-the-background */
+.h2_p2 {
+  background: linear-gradient(180deg, #6a6522 50%, #FFF 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h2_p1 {
+  background: linear-gradient(180deg, #030f7d 50%, rgb(173, 6, 170) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pro222 {
+  background-color: rgb(160, 169, 127);
+  width: 80%;
+  border-radius: 30px;
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pro111 {
+  background-color: rgb(160, 169, 127);
+  width: 80%;
+  border-radius: 30px;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.pro41 {
+  background-color: rgb(228, 157, 215);
+  width: 100%;
+  border-radius: 30px;
+  height: 100%;
+  /* reference: https://css-tricks.com/almanac/properties/t/transition/ */
+  transition: background-color 0.5s ease;
+}
+.pro31 {
+  background-color: rgb(160, 169, 127);
+  width: 100%;
+  border-radius: 30px;
+  height: 100%;
+  /* reference: https://css-tricks.com/almanac/properties/t/transition/ */
+  transition: background-color 0.5s ease;
+
+}
+
+.pro333:hover .pro31 {
+  background-color: SlateGray;
+  opacity: 0.50;
+  z-index: 2;
+}
+/* reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */
+.pro333:active .pro31 {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* reference: https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
+.pro444:hover .pro43 {
+  visibility: visible;
+  transform: translateY(0);
+}
+.pro444:hover .pro41 {
+  background-color: SlateGray;
+  opacity: 0.50;
+  z-index: 2;
+}
+/* reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */
+.pro444:active .pro41 {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* reference: https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
+.pro333:hover .pro33 {
+  visibility: visible;
+  transform: translateY(0);
+}
+/* reference: https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
+.pro33 {
+  width: 80%;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  transition: .2s;
+  transform: translateY(10em);
+}
+/* reference: https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
+.pro43 {
+  width: 80%;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  visibility: hidden;
+  position: absolute;
+  top: 10%;
+  transition: .2s;
+  transform: translateY(-10em);
+}
+.pro32 {
+
+
+  width: 80%;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  top: -60.13%;
+  position: relative;
+  
+}
+.pro42 {
+
+
+  width: 80%;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  top: -10.12%;
+  position: relative;
+  
+}
+
+.pro3 {
+  margin-top: -30%;
+  position: relative;
+  text-align: center;
+  margin-bottom: -30%;
+}
+.pro4 {
+  margin-top: -30%;
+  position: relative;
+  text-align: center;
+  margin-bottom: -30%;
+}
+
+/* reference: https://stackoverflow.com/questions/53223031/splitting-text-color-with-css-when-compared-to-the-background */
+.h2_p3 {
+  background: linear-gradient(180deg, #07173f 50%, #FFF 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h2_p4 {
+  background: linear-gradient(180deg, #f0d92a 50%, rgb(39, 50, 175) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pro333 {
+  background-color: rgb(160, 169, 127);
+  width: 80%;
+  border-radius: 30px;
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pro444 {
+  background-color: rgb(160, 169, 127);
+  width: 80%;
+  border-radius: 30px;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.r-title {
+  margin-top: 20vh;
+}
+
+.rr-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  align-items: center;
+}
+
+.para {
+  background-color: azure;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.h2-title {
+  text-align: left;
+  width: 50%;
+  font-size: 40px;
+  margin: auto;
+}
+.h2-lc {
+  width: 50%;
+  font-size: 40px;
+  margin: auto;
+}
+
+.image-container {
+  weight: 50vh;
+}
+
+.me-title {
+  font-size: 30px;
+}
+
+.me-des {
+
+  font-size: 30px;
+  text-align: left;
+  margin: 20px;
+  
+}
+
+.me-div {
+  margin:auto;
+}
+
+.rd-h1 {
+  color:#055011;
+}
+
+.rd-h3 {
+  background-color: antiquewhite;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.id-con {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  margin-left: 10%;
+}
+
+video {
+  width: 50%;
+  margin:auto;
+}
+
+.id-ut {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  margin: auto;
+  margin-left: 20%;
+}
+
+.mts-des {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 10vh;
+}
+
+.h1-back {
+  background-color: blanchedalmond;
+  font-size: 20px;
+  padding: 0;
+  margin-top: 20px;
+  width: 150px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 10px;
+  position: fixed;
+}
+
+.h3-main {
+  text-align: left;
+}
+/* reference: https://stackoverflow.com/questions/36482126/how-to-enlarge-the-svg-icon-in-material-ui-iconbuttons */
+.h2-icon {
+  transform: scale(2);
+  margin-left: 2%;
+  margin-right: 2%;
+  color:#030f7d;
 }
