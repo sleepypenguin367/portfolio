@@ -538,7 +538,7 @@ background-color: aqua;
   border-radius: 30px;
   text-align: center;
   margin: auto;
-  top: -10.12%;
+  top: -8.9%;
   position: relative;
   
 }
@@ -565,6 +565,7 @@ background-color: aqua;
 .h2_p4 {
   background: linear-gradient(180deg, #f0d92a 50%, rgb(39, 50, 175) 50%);
   -webkit-background-clip: text;
+  font-size: 57px;
   -webkit-text-fill-color: transparent;
 }
 
