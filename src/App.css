@@ -21,7 +21,7 @@
 
 .workCon {
   margin: auto;
-  background-color: #7ae982;
+  background-color: #e0fbfc;
   z-index: 200;
   text-align: center;
   align-items: center;
@@ -30,21 +30,21 @@
   width: 100%;
   margin: auto;
   padding-bottom: 20px;
-  background-color: #7ae982;
+  background-color: #e0fbfc;
   z-index: 200;
   text-align: center;
 }
 
 .workCon1 {
   margin: auto;
-  background-color: #60BFC1;
+  background-color: #98c1d9;
   z-index: 200;
   text-align: center;
 }
 .workCon2 {
   margin: auto;
   width: 100%;
-  background-color: #60BFC1;
+  background-color: #98c1d9;
   z-index: 200;
   padding-bottom: 50px;
 
@@ -53,7 +53,7 @@
 
 
 .works {
-  background-color: #7ae982;
+  background-color: #e0fbfc;
   display: grid;
   gap: 60px;
   grid-template-columns: 50% 50%;
@@ -75,7 +75,7 @@ display: grid;
 .container_left {
   text-align: center;
   display: inline;
-  background-color: #60BFC1;
+  background-color: #98c1d9;
   overflow: hidden;
 }
 
@@ -123,8 +123,8 @@ h6 {
 .title {
   margin-top: 15%;
   margin-bottom: 20%;
-  margin-left: 60%;
-  margin-right: 10%;
+  margin-left: 65%;
+  margin-right: 5%;
   z-index: 200;
   position: relative;
 }
@@ -147,7 +147,7 @@ h6 {
 }
 .container_left1 {
   display: inline;
-  background-color: #60BFC1;
+  background-color: #98c1d9;
 }
 .container_left2 {
   display: inline;
@@ -257,12 +257,12 @@ position: absolute;
 }
 
 .sec1 {
-  background-color: #60BFC1;
+  background-color: #98c1d9;
   height: 55vw;
 }
 
 .sec1 {
-  background-color: #60BFC1;
+  background-color: #98c1d9;
 }
 
 .plane {
@@ -283,14 +283,14 @@ background-color: aqua;
   z-index: 50;
   position: relative;
 
-  background-image: linear-gradient(#60BFC1, #7ae982);
+  background-image: linear-gradient(#98c1d9, #e0fbfc);
 }
 .div2 {
   height: 100px;
   z-index: 50;
   position: relative;
 
-  background-image: linear-gradient(#7ae982,#60BFC1);
+  background-image: linear-gradient(#e0fbfc,#98c1d9);
 }
 
 .top_layer {
@@ -558,7 +558,7 @@ background-color: aqua;
 
 /* reference: https://stackoverflow.com/questions/53223031/splitting-text-color-with-css-when-compared-to-the-background */
 .h2_p3 {
-  background: linear-gradient(180deg, #07173f 50%, #FFF 50%);
+  background: linear-gradient(180deg, #07173f 50%, rgb(140, 36, 36) 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

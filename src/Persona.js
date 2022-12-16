@@ -27,6 +27,10 @@ export default function Persona() {
     </div>
     </section >
 
+    <section>
+      <div className='div1'></div>
+    </section>
+
     <section id="io" className="workCon">
     <h2>Interview Observations</h2>
       <h2 className="h2-title">Questions for users:</h2>
@@ -55,7 +59,9 @@ export default function Persona() {
 
 
     </section>
-
+    <section>
+      <div className='div2'></div>
+    </section>
 
     <section id="em1" className="workCon2">
     <h2>Empathy Map 1</h2>
@@ -68,7 +74,10 @@ This represents the group of new drivers who just started using the interface. T
       
 
     </section>
-    <section id="em2" className="workCon2">
+    <section>
+      <div className='div1'></div>
+    </section>
+    <section id="em2" className="workCon3">
     <h2>Empathy Map 2</h2>
     <h2 className="h2-title">Anna, a driver has beening driving for years.</h2>
       <div>
@@ -78,6 +87,9 @@ This represents the group of experienced drivers. They know the process but some
     </div>
       
 
+    </section>
+    <section>
+      <div className='div2'></div>
     </section>
     <section id="sb" className="workCon2">
     <h2>Storyboard</h2>

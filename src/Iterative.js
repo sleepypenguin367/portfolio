@@ -21,7 +21,9 @@ function Iterative() {
    <h3 className="rd-h3"> In this project, we went through the full process of mocking up a solution to the startup's concept. We choose AeonCharge as our startup. It is an app designed for electric vehicle drivers to find and pay for a charger in the US. The application's primary purpose would be to integrate different networks and provide a coherent service. Our exemplifications for the iterative process flow include sketching initial ideas and combining them into wireframes, creating an interactive high-fidelity mockup, collecting and incorporating feedback, and having test users try out on UserTesting.com. </h3>
     </div>
     </section >
-
+    <section>
+      <div className='div1'></div>
+    </section>
     <section id="ske" className="workCon">
     <h2>Sketches</h2>
       <h2 className="h2-title">Here are our four sets of sketches:</h2>
@@ -51,7 +53,9 @@ function Iterative() {
 
 
     </section>
-
+    <section>
+      <div className='div2'></div>
+    </section>
 
     <section id="wf" className="workCon2">
     <h2>Wireframs</h2>
@@ -71,7 +75,9 @@ function Iterative() {
       
 
     </section>
-
+    <section>
+      <div className='div1'></div>
+    </section>
 
     <section id="hfm" className="workCon3">
     <h2>Hi-Fi Mockup</h2>
@@ -95,7 +101,9 @@ function Iterative() {
               <li><h3 class="para">Locolization icon in home page is lost in the background because of low contrast </h3></li>
             </ul>
     </section>
-
+    <section>
+      <div className='div2'></div>
+    </section>
     
 
     <section id="ut" className="workCon2">
