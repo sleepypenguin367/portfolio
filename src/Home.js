@@ -124,7 +124,7 @@ function Works() {
 <div className="pro43"><h1 className="h1_p2">Created personas and storyborad based on interviews of users using gas station machine</h1></div>
 </div>
 </Link>
-<div className="pro42"><h2 className="h2_p4">Persona & Storyboarding</h2></div>
+<div className="pro42"><h2 className="h2_p4">Persona & Storyboard</h2></div>
 
 </div>
 
